@@ -6,7 +6,7 @@ public class Main {
 
         int[] vector = {1, 3, 2, 1, 4, 5, 4, 7, 1, 3, 2};
 
-        HashMap<Integer, Integer> histogram = new HashMap<>();
+        HashMap<Type> histogram = claseinstancia.name();
 
         for (int key : vector) {
             if (histogram.containsKey(key)) {
